@@ -148,7 +148,7 @@ h4{
 
 p{
     padding: 0 55px;
-    color: #7c7c7c;
+    color: #9c9797;
     margin-top: 15px;
 }
 
@@ -168,6 +168,11 @@ p{
     background-size: cover;
     display: flex;
     align-items: center;
+}
+.explore p{
+    color: #f7f7f7e7;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .explore-content{
