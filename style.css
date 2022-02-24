@@ -169,11 +169,7 @@ p{
     display: flex;
     align-items: center;
 }
-.explore p{
-    color: #f7f7f7e7;
-    text-align: center;
-    margin-bottom: 40px;
-}
+
 
 .explore-content{
     width: 60%;
@@ -183,6 +179,12 @@ p{
     align-items: center;
     flex-direction: column;
     margin-left: 350px;
+}
+
+.explore p{
+    color: #f7f7f7e7;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .explore-content h1{
@@ -517,6 +519,12 @@ text-align: center;
     }
     .contact .row form .input-box input, .contact .row form textarea{
 width: 100%;
+    }
+    
+    .card h3{
+        /* margin: 20px 81px 23px 93px; */
+        text-align: center;
+    
     }
 
 
