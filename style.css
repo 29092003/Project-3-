@@ -1,0 +1,547 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=IBM+Plex+Sans:wght@300&family=Lato:wght@300&family=Merriweather:wght@700&family=Nunito:wght@200;300;400;600&family=Playball&family=Poppins:wght@300&family=Rowdies&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+body , html{
+overflow-x: hidden;
+}
+span{
+    color: #fc036b;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    width: 100%;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-links li{
+    margin: 0 30px; 
+}
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imgs/bg1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background:#fc036b;
+    margin: 10px auto;
+    border-radius: 6px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn{
+    padding: 10px 19px;
+    background: #fc036b;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.active{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+/* Events */
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgba(17, 2, 43, 0.952);
+}
+
+.short{
+    width: 35vw;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    margin-top: 26px;
+    font-size: x-large;
+    color: #11112e;
+}
+
+p{
+    padding: 0 55px;
+    color: #7c7c7c;
+    margin-top: 15px;
+}
+
+.events .ctn{
+    margin-top: 30px;
+}
+
+
+/* Explore */
+
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgs/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 350px;
+}
+
+.explore-content h1{
+font-size: 7vmin;
+margin: 50px;
+}
+
+
+/* Tour */
+
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+}
+
+.tours .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.image-gallery img{
+max-width: 300px;
+margin: 10px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #212135;
+}
+.content-col .line{
+    margin-left: -1px;
+}
+.content-col .ctn{
+    margin-left: -350px;
+    
+}
+
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+
+
+
+
+/* Testimonials*/
+
+.testimonials{
+    background-color: #6d6d83a6;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.testimonials h1{
+    font-size: 2.4rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.testimonials .row{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #57576b; */
+    padding: 30px;
+    width: 100%;
+    padding: 40px;
+    
+}
+
+.card p{
+    margin-bottom: 30px; 
+text-align: center;
+color: rgba(0, 0, 0, 0.781);
+
+}
+
+.card img{
+   width: 280px;
+   margin-top: 38px;
+   border-radius: 4px;
+}
+.card{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(228, 220, 220);
+    border-radius: 13px;
+}
+.card h3{
+    margin: 20px 81px 23px 93px;
+
+}
+
+
+/* Contact */
+
+
+
+.contact .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.contact h1{
+font-size: 2.4rem;
+text-align: center;
+
+}
+
+.contact .row img{
+    width: 45%;
+    transform: none;
+}
+
+.contact .row form{
+    padding: 40px;
+    border-radius: .5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+
+}
+.contact .row form .input-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+
+ .contact .row form .input-box input, .contact .row form textarea{
+    width: 45%;
+   margin: 14px 0;
+   padding: 4px;
+   font-size: 1rem;
+   color: #333;
+   background-color: #f7f7f7;
+   transform: none;
+   outline: none;
+   border: 1px solid rgba(128, 128, 128, 0.87);
+   border-radius: 4px;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+    width: 100%;
+    }
+    .contact .row form .ctn{
+        border: 0;
+    }
+
+.footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #484872;
+    text-align: center;
+}
+
+.footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+    
+}
+
+
+
+
+
+
+/* Responsiveness */
+
+/* Mobile device */
+
+@media only screen and (max-width:1250px){
+    .content-col .ctn {
+        margin-left: 0px
+}
+}
+
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+
+  .navbar{
+      padding: 0;
+  }
+
+  .logo{
+      position: absolute;
+      top: 30px;
+      left: 30px;
+  }
+  .nav-links{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      background-color: rgb(88, 29, 143);
+      margin-top: -900px;
+      transition: all 0.5s ease;
+  }
+  .header-content h2{
+    font-size: 6vmin;
+}
+  .mobile-menu{
+      margin-top: 0px;
+      border-bottom-right-radius:30% ;
+  }
+  .nav-links li{
+      margin: 30px auto;
+  }
+
+
+
+
+
+    /* Event section */
+    .events h1{
+        font-size: 1.4rem;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .row .col{
+        margin: 20px auto;
+    }
+    .row .col h4{
+       font-size: 1.2rem;
+  }
+    .row .col p{
+          text-align: center;
+    }
+    .col img{
+        max-width: 95%;
+    }
+    .short {
+        width: 80vw;
+    }
+
+
+
+
+
+
+
+
+    /* explore */
+
+    .explore-content{
+        width: 100%;
+    }
+    .tours .col{
+        width: 100%;
+    }
+   
+    .explore-content{
+        margin-left: 0;
+        align-items:center;
+        
+    }
+    .explore-content p{
+        padding: 15px;
+    }
+    .explore-content h1{
+        margin: 10px -16px;
+    }
+    
+    .content-col .ctn {
+        margin-left: 0px;
+    }
+    .image-gallery{
+        justify-content: center;
+        align-items: center;
+    }
+    .image-gallery{
+        width: 90%;
+    }
+
+
+
+
+
+    /* testimonilas */
+
+    .testimonials .row{
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+
+    .testimonials .row .card{
+        margin-bottom: 50px;   
+    }
+
+
+    /* Contact */
+
+    .contact .row{
+      flex-direction: column;
+    }
+
+
+    .contact .row img{
+       width: 100%;
+    }
+
+
+
+    /* footer */
+     
+    .footer{
+        padding: 10px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:550px){
+    .contact .row form .input-box{
+        flex-direction: column;
+    }
+    .contact .row form .input-box input, .contact .row form textarea{
+width: 100%;
+    }
+
+
+}
+
+
+
+/* Animations  */
+
+img{
+    transition: tranform .3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.ctn:hover{
+    background-color: whitesmoke;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.658);
+}
+
+ul li a:hover{
+    color: #fc036b;
+}
+.card img{
+    transform: none;
+}
+.card:hover{
+    transform: translateY(-15px);
+ 
+}
